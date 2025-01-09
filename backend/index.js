@@ -54,6 +54,7 @@ app.get("/providers", (req, res) => {
 // Route to search providers by location
 app.get("/providers/search", (req, res) => {
   const { location } = req.query; // Get location
+  console.log("Received location:", location); // Log the location parameter
 
   // Ensure location is provided for filtering
   if (!location) {
@@ -201,7 +202,7 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}!`);
 });
-
+*/
 /*import express from "express";
 import dotenv from "dotenv";
 import mysql from "mysql2";
