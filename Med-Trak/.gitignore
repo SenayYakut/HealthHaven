@@ -1,9 +1,32 @@
-# Ignore common system files
+# macOS system files
 .DS_Store
-Thumbs.db
 
-# Ignore node_modules
-node_modules/
+# Node.js and npm related
+.npm/
+.nvm/
 
-# Ignore folders outside the repository
-../
+# zsh and shell configurations
+.zsh_history
+.zsh_sessions/
+.zshrc
+.zprofile.old
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Miscellaneous config files
+.gitconfig
+.bash_history
+.bash_sessions/
+.mysql_history
+.mongodb/
+
+# Application directories
+Applications/
+Downloads/
+Movies/
+Music/
+Pictures/
+Desktop/
+Library/
